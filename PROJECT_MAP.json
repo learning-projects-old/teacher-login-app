@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "login_app",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:login_app",
+      "type": "project",
+      "name": "login_app"
+    },
+    {
+      "id": "project:login_app/file:client/README.md",
+      "type": "file",
+      "path": "client/README.md",
+      "sha256": "905ebd90c26fa2ee468cb18b95bd8bea9538fca99123e89ec0ebcfc65a31f53a",
+      "bytes": 535
+    },
+    {
+      "id": "project:login_app/file:client/package.json",
+      "type": "file",
+      "path": "client/package.json",
+      "sha256": "67b5b2e0d5d2b94e65018bfc3c4e0e7bcdda2c46e65f616aba60cec695e4c0b5",
+      "bytes": 339
+    },
+    {
+      "id": "project:login_app/file:client/src/App.vue",
+      "type": "file",
+      "path": "client/src/App.vue",
+      "sha256": "f995a06fb93d54c1750729af1732ef93b2c9c8efbf27784c50128052dfa5c3ef",
+      "bytes": 1013
+    },
+    {
+      "id": "project:login_app/file:client/src/main.js",
+      "type": "file",
+      "path": "client/src/main.js",
+      "sha256": "362bc344ae45e9611bc69c7ceaa7ba78bb9a9958c35de6f88bb9fe907de2d80f",
+      "bytes": 136
+    },
+    {
+      "id": "project:login_app/file:client/src/router.js",
+      "type": "file",
+      "path": "client/src/router.js",
+      "sha256": "b2c3e78b5c86e5a7aac3ed7284a14f74213e1a419be0e610c73cefa76b893d69",
+      "bytes": 473
+    },
+    {
+      "id": "project:login_app/file:client/src/views/AboutView.vue",
+      "type": "file",
+      "path": "client/src/views/AboutView.vue",
+      "sha256": "674e1b86bba3cac1c99858d50d276d27e5eb0a04922f53ba1d6bed98f693dcb5",
+      "bytes": 183
+    },
+    {
+      "id": "project:login_app/file:client/src/views/HomeView.vue",
+      "type": "file",
+      "path": "client/src/views/HomeView.vue",
+      "sha256": "be5050722e2ccda48922ca3a9aaaa11d7c007dbd0b413305e7d612787b9134bd",
+      "bytes": 1119
+    },
+    {
+      "id": "project:login_app/file:client/src/views/LoginView.vue",
+      "type": "file",
+      "path": "client/src/views/LoginView.vue",
+      "sha256": "a2ad1ecb07c2f740f6ef29cef2c76febeaed7f0d4e26bdb82c02c7a6ad8dd4cc",
+      "bytes": 1408
+    },
+    {
+      "id": "project:login_app/file:client/src/views/NotFoundView.vue",
+      "type": "file",
+      "path": "client/src/views/NotFoundView.vue",
+      "sha256": "6c596c190973fb29369b4d8c2cef8ac105add269a5b935295d75ed1e48bd1970",
+      "bytes": 192
+    },
+    {
+      "id": "project:login_app/file:client/vite.config.js",
+      "type": "file",
+      "path": "client/vite.config.js",
+      "sha256": "fed67fc2f23af27f719ea8b83e51b5e3c825c5ed73c105fb1f63b59f6afd6100",
+      "bytes": 157
+    },
+    {
+      "id": "project:login_app/file:server/package.json",
+      "type": "file",
+      "path": "server/package.json",
+      "sha256": "b74d00598397ce47f83199853674192fc13d6a0a7f72cf2c2bcc6f1f9c61e220",
+      "bytes": 339
+    },
+    {
+      "id": "project:login_app/file:server/server.js",
+      "type": "file",
+      "path": "server/server.js",
+      "sha256": "5e20cede06ddf99e04a1596633970432a7cd792f100d6020224ca9bf1f3a83a2",
+      "bytes": 1109
+    },
+    {
+      "id": "project:login_app/file:vuex-app/README.md",
+      "type": "file",
+      "path": "vuex-app/README.md",
+      "sha256": "905ebd90c26fa2ee468cb18b95bd8bea9538fca99123e89ec0ebcfc65a31f53a",
+      "bytes": 535
+    },
+    {
+      "id": "project:login_app/file:vuex-app/package.json",
+      "type": "file",
+      "path": "vuex-app/package.json",
+      "sha256": "9513a0ea33a32884de0198fb12f14ee636e074bfef9fe0f67683c893854e8d63",
+      "bytes": 381
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/App.vue",
+      "type": "file",
+      "path": "vuex-app/src/App.vue",
+      "sha256": "4dd0c5e3f4eb6cceedb5cfe6c664318d21aea6baadc4f26adb24d3b954012c25",
+      "bytes": 513
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/components/Counter.vue",
+      "type": "file",
+      "path": "vuex-app/src/components/Counter.vue",
+      "sha256": "eb35afbba5bea41d8874fd1c5402098facb004fc37c376115fd619dd7197ff0c",
+      "bytes": 239
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/components/CounterButtons.vue",
+      "type": "file",
+      "path": "vuex-app/src/components/CounterButtons.vue",
+      "sha256": "4bdfbedf749fa481d31497dccde5be6a7b44969eb338a8d3afff64fb97f393c7",
+      "bytes": 280
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/components/TodoInput.vue",
+      "type": "file",
+      "path": "vuex-app/src/components/TodoInput.vue",
+      "sha256": "dc2525237f538e8fb9121b071237a33ea74b12ad24aafcb21201a8f241c7ce1f",
+      "bytes": 233
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/components/TodoList.vue",
+      "type": "file",
+      "path": "vuex-app/src/components/TodoList.vue",
+      "sha256": "cb49deb45b7b775a5fef1897954a15cc80afb5524b19847f60204317ebed07c8",
+      "bytes": 330
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/main.js",
+      "type": "file",
+      "path": "vuex-app/src/main.js",
+      "sha256": "802cd2c6a56c6b49aff5a97085eb9936c1a116d0c1a8377d199059fb64893384",
+      "bytes": 152
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/store/index.js",
+      "type": "file",
+      "path": "vuex-app/src/store/index.js",
+      "sha256": "d7b47834a1c76dc04d5f8ade13859a87255450382b928db2fd284347b2612508",
+      "bytes": 243
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/store/modules/counter.module.js",
+      "type": "file",
+      "path": "vuex-app/src/store/modules/counter.module.js",
+      "sha256": "d78a42ee2fe8e7f7b2935edbb9f2caf19a6a9f835559dfccf41ffc74d4998882",
+      "bytes": 233
+    },
+    {
+      "id": "project:login_app/file:vuex-app/src/store/modules/todos.module.js",
+      "type": "file",
+      "path": "vuex-app/src/store/modules/todos.module.js",
+      "sha256": "a7836c1fa21dbd0e09e38d6a1449dba411e09fae7c8e8b9ac97a7da0ab595e3c",
+      "bytes": 185
+    },
+    {
+      "id": "project:login_app/file:vuex-app/vite.config.js",
+      "type": "file",
+      "path": "vuex-app/vite.config.js",
+      "sha256": "fed67fc2f23af27f719ea8b83e51b5e3c825c5ed73c105fb1f63b59f6afd6100",
+      "bytes": 157
+    },
+    {
+      "id": "package:npm:vue",
+      "type": "package",
+      "name": "vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-router",
+      "type": "package",
+      "name": "vue-router",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vitejs/plugin-vue",
+      "type": "package",
+      "name": "@vitejs/plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite",
+      "type": "package",
+      "name": "vite",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:express",
+      "type": "package",
+      "name": "express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:uuid",
+      "type": "package",
+      "name": "uuid",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:cors",
+      "type": "package",
+      "name": "cors",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:prettier",
+      "type": "package",
+      "name": "prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vuex",
+      "type": "package",
+      "name": "vuex",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/src/App.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/App.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/src/main.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/main.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/src/router.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/router.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/src/views/AboutView.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/views/AboutView.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/src/views/HomeView.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/views/HomeView.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/src/views/LoginView.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/views/LoginView.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/src/views/NotFoundView.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/src/views/NotFoundView.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:client/vite.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "client/vite.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:server/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:server/server.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "server/server.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/App.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/App.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/components/Counter.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/components/Counter.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/components/CounterButtons.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/components/CounterButtons.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/components/TodoInput.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/components/TodoInput.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/components/TodoList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/components/TodoList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/main.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/main.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/store/index.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/store/index.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/store/modules/counter.module.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/store/modules/counter.module.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/src/store/modules/todos.module.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/src/store/modules/todos.module.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app",
+      "target": "project:login_app/file:vuex-app/vite.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "vuex-app/vite.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:login_app/file:client/src/App.vue",
+      "target": "project:login_app/file:client/src/views/AboutView.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/App.vue",
+        "line": 15
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:client/src/main.js",
+      "target": "project:login_app/file:client/src/App.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/main.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:client/src/main.js",
+      "target": "project:login_app/file:client/src/router.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/main.js",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:client/src/router.js",
+      "target": "project:login_app/file:client/src/views/HomeView.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/router.js",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:client/src/router.js",
+      "target": "project:login_app/file:client/src/views/LoginView.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/router.js",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:client/src/router.js",
+      "target": "project:login_app/file:client/src/views/NotFoundView.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "client/src/router.js",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/src/App.vue",
+      "target": "project:login_app/file:vuex-app/src/components/Counter.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "vuex-app/src/App.vue",
+        "line": 12
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/src/App.vue",
+      "target": "project:login_app/file:vuex-app/src/components/CounterButtons.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "vuex-app/src/App.vue",
+        "line": 13
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/src/App.vue",
+      "target": "project:login_app/file:vuex-app/src/components/TodoInput.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "vuex-app/src/App.vue",
+        "line": 15
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/src/App.vue",
+      "target": "project:login_app/file:vuex-app/src/components/TodoList.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "vuex-app/src/App.vue",
+        "line": 16
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/src/main.js",
+      "target": "project:login_app/file:vuex-app/src/App.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "vuex-app/src/main.js",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/src/main.js",
+      "target": "project:login_app/file:vuex-app/src/store/index.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "vuex-app/src/main.js",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/src/store/index.js",
+      "target": "project:login_app/file:vuex-app/src/store/modules/counter.module.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "vuex-app/src/store/index.js",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/src/store/index.js",
+      "target": "project:login_app/file:vuex-app/src/store/modules/todos.module.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "vuex-app/src/store/index.js",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:login_app/file:client/package.json",
+      "target": "package:npm:vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 12
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:client/package.json",
+      "target": "package:npm:vue-router",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 13
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:client/package.json",
+      "target": "package:npm:@vitejs/plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:client/package.json",
+      "target": "package:npm:vite",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "client/package.json",
+        "line": 7
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:server/package.json",
+      "target": "package:npm:express",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 14
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:server/package.json",
+      "target": "package:npm:uuid",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 15
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:server/package.json",
+      "target": "package:npm:cors",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "server/package.json",
+        "line": 18
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "vuex-app/package.json",
+        "line": 12
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/package.json",
+      "target": "package:npm:vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "vuex-app/package.json",
+        "line": 13
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/package.json",
+      "target": "package:npm:vuex",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "vuex-app/package.json",
+        "line": 14
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/package.json",
+      "target": "package:npm:@vitejs/plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "vuex-app/package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:login_app/file:vuex-app/package.json",
+      "target": "package:npm:vite",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "vuex-app/package.json",
+        "line": 7
+      },
+      "method": "manifest"
+    }
+  ]
+}
